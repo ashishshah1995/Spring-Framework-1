@@ -2,6 +2,14 @@
 
 In this project I have used created Spring project Annotations and Java Code configuration
 
+# Running the application
+
+Step 1- Install Tomcat Server and connect it with IDE
+
+Step 2- Adding the Jar files which are in lib folder -
+
+        Right click on Main project -> Properties-> Java Build Path -> Libraries -> Add Jar- Apply
+
 # Annotations
 
 1. They are special labels/markers added to java classes. 
@@ -43,9 +51,7 @@ Spring can use auto wiring for dependency injection. Spring will look for a clas
 
 1. Inject dependencies by setting field values on class directly, accomplished by using java reflection
 
-Multiple fortuneService implementation then which one spring will pick? (1 interface - many class which implements it)
-To resolve - We have to give a unique / sepcific bean using annotation(@Qualifier)
-Use bean id which is same name as class in Qualifier
+If there are Multiple implementation for one interface then use *@Qualifier(bean id)* which iss ame name as class to resolve the issue
 
 ### Bean Scope with Annotations
 
