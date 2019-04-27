@@ -4,11 +4,25 @@ In this project I have created Spring project using Annotations and Java Code co
 
 # Running the application
 
-Step 1- Install Tomcat Server and connect it with IDE
+Step 1. Install Tomcat Server and connect it with IDE
 
-Step 2- Adding the Jar files which are in lib folder -
+Step 2. Adding the Jar files which are in lib folder -
 
         Right click on Main project -> Properties-> Java Build Path -> Libraries -> Add Jar- Apply
+        
+# Classes and its functionalities
+
+## Using Annotation Configuration
+
+1. AnnotationDemoApp is the main class which will read sport.properties file and display Information.
+
+2. AnnotationBeanScopeDemoApp shows the scope of the bean (Singleton and Prototype)
+
+## Using Java code Configuration
+
+1. JavaConfigDemoApp is the main class using Java code Configuration
+
+2. SwimJavaConfigDemo app is the main class which will read sport.properties file and display Information.
 
 # Annotations
 
