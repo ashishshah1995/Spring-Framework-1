@@ -26,9 +26,7 @@ Step 2- Adding the Jar files which are in lib folder -
 
 3. Retrieve bean from spring container
 
-## Depending injection with dependency and autowiring
-
-### Autowring
+## Autowring
 Spring can use auto wiring for dependency injection. Spring will look for a class that matches the property(matches by type : class or interface) and inject it automatically
 
 ### Autowiring injection types
@@ -39,7 +37,7 @@ Spring can use auto wiring for dependency injection. Spring will look for a clas
 
 3. Field Injection
 
-#### Development process for constructor injection 
+### Development process for constructor injection 
 
 1. Define the dependency interface and class
 
@@ -53,11 +51,11 @@ Spring can use auto wiring for dependency injection. Spring will look for a clas
 
 If there are Multiple implementation for one interface then use *@Qualifier(bean id)* which iss ame name as class to resolve the issue
 
-### Bean Scope with Annotations
+## Bean Scope with Annotations
 
 1. @Scope("singleton")
 
-### LIFECYCLE
+## LIFECYCLE
 
 1. @PostConstruct- This code will execute after the bean is being constructed
 
