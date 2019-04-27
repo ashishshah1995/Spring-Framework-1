@@ -1,6 +1,6 @@
 # Spring-Framework-1
 
-In this project I have created Spring project Annotations and Java Code configuration
+In this project I have created Spring project using Annotations and Java Code configuration
 
 # Running the application
 
