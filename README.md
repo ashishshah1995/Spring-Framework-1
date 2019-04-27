@@ -18,12 +18,6 @@ Step 2. Adding the Jar files which are in lib folder -
 
 2. AnnotationBeanScopeDemoApp shows the scope of the bean (Singleton and Prototype)
 
-## Using Java code Configuration
-
-1. JavaConfigDemoApp is the main class using Java code Configuration
-
-2. SwimJavaConfigDemo app is the main class which will read sport.properties file and display Information.
-
 # Annotations
 
 1. They are special labels/markers added to java classes. 
@@ -76,6 +70,15 @@ If there are Multiple implementation for one interface then use *@Qualifier(bean
 2. @PreDestroy- Before your beans destroy
 
 # Spring Configuration using JAVA CODE
+
+## Classes and its functionalities
+
+## Using Java code Configuration
+
+1. JavaConfigDemoApp is the main class using Java code Configuration
+
+2. SwimJavaConfigDemo app is the main class which will read sport.properties file and display Information.
+
 
 ## Development process
 
