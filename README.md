@@ -69,7 +69,7 @@ If there are Multiple implementation for one interface then use *@Qualifier(bean
 
 1. @Scope("singleton")
 
-## LIFECYCLE
+## LifeCycle of Bean
 
 1. @PostConstruct- This code will execute after the bean is being constructed
 
