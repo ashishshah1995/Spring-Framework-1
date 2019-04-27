@@ -73,7 +73,7 @@ If there are Multiple implementation for one interface then use *@Qualifier(bean
 
 ## Classes and its functionalities
 
-## Using Java code Configuration
+### Using Java code Configuration
 
 1. JavaConfigDemoApp is the main class using Java code Configuration
 
